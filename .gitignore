@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+.DS_Store
+
+# presenter-only answer key — keep the reveal a surprise
+SOLUTION.md

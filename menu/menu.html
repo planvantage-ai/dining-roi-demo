@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hal's &middot; Steakhouse &middot; Buckhead</title>
+<style>
+  :root {
+    --paper: #f7f3ec;
+    --ink: #1a1714;
+    --muted: #6b6258;
+    --hair: #c9bfae;
+    --accent: #5a4a36;
+  }
+
+  * { box-sizing: border-box; }
+
+  html { background: #e6ded0; }
+
+  body {
+    margin: 0;
+    background: var(--paper);
+    color: var(--ink);
+    font-family: Georgia, 'Playfair Display', 'Times New Roman', serif;
+    font-size: 15px;
+    line-height: 1.45;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .sheet {
+    max-width: 740px;
+    margin: 0 auto;
+    padding: 56px 64px 48px;
+  }
+
+  /* ---- Header ---- */
+  header {
+    text-align: center;
+    padding-bottom: 26px;
+    border-bottom: 1.5px solid var(--ink);
+    margin-bottom: 8px;
+  }
+
+  .brand {
+    font-family: Georgia, 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 58px;
+    letter-spacing: 0.14em;
+    margin: 0 0 10px;
+    text-indent: 0.14em;
+    line-height: 1;
+  }
+
+  .subtitle {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    font-size: 11px;
+    letter-spacing: 0.42em;
+    text-indent: 0.42em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin: 0;
+  }
+
+  .flourish {
+    font-size: 13px;
+    letter-spacing: 0.3em;
+    color: var(--accent);
+    margin: 16px 0 0;
+  }
+
+  /* ---- Sections ---- */
+  .section {
+    margin-top: 30px;
+    page-break-inside: avoid;
+  }
+
+  .section-head {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 14px;
+  }
+
+  .section-head h2 {
+    font-family: Georgia, 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 19px;
+    letter-spacing: 0.22em;
+    text-indent: 0.22em;
+    text-transform: uppercase;
+    margin: 0;
+    white-space: nowrap;
+    color: var(--ink);
+  }
+
+  .section-head::after {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: var(--hair);
+  }
+
+  /* ---- Dish rows ---- */
+  .dish {
+    padding: 9px 0;
+    page-break-inside: avoid;
+  }
+  .dish + .dish {
+    border-top: 1px solid #e3dac9;
+  }
+
+  .dish-line {
+    display: flex;
+    align-items: baseline;
+    gap: 8px;
+  }
+
+  .dish-name {
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 0.01em;
+  }
+
+  .leader {
+    flex: 1;
+    border-bottom: 1px dotted var(--hair);
+    transform: translateY(-4px);
+    min-width: 18px;
+  }
+
+  .dish-price {
+    font-variant-numeric: tabular-nums;
+    font-weight: 700;
+    font-size: 16px;
+    white-space: nowrap;
+  }
+
+  .dish-desc {
+    margin: 3px 0 0;
+    font-size: 13.5px;
+    font-style: italic;
+    color: var(--muted);
+    max-width: 92%;
+    line-height: 1.4;
+  }
+
+  /* ---- Footer ---- */
+  footer {
+    margin-top: 40px;
+    padding-top: 16px;
+    border-top: 1px solid var(--hair);
+    text-align: center;
+  }
+  .footer-mark {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    font-size: 10px;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin: 0 0 6px;
+  }
+  .footer-note {
+    font-size: 11px;
+    font-style: italic;
+    color: #9a9082;
+    margin: 0;
+  }
+
+  /* ---- Print ---- */
+  @page {
+    size: Letter;
+    margin: 0.6in;
+  }
+
+  @media print {
+    html { background: #fff; }
+    body { font-size: 12.5px; }
+    .sheet {
+      max-width: none;
+      margin: 0;
+      padding: 0;
+    }
+    .brand { font-size: 50px; }
+    header { padding-bottom: 18px; }
+    .section { margin-top: 18px; }
+    .dish { padding: 7px 0; }
+    footer { margin-top: 22px; padding-top: 12px; }
+  }
+</style>
+</head>
+<body>
+  <div class="sheet">
+    <header>
+      <h1 class="brand">HAL'S</h1>
+      <p class="subtitle">Steakhouse &middot; Buckhead</p>
+      <p class="flourish">&mdash;&nbsp; &diams; &nbsp;&mdash;</p>
+    </header>
+
+    <section class="section">
+      <div class="section-head"><h2>Starters</h2></div>
+      <div class="dish">
+        <div class="dish-line"><span class="dish-name">Jumbo Lump Crab Cakes</span><span class="leader"></span><span class="dish-price">$34</span></div>
+        <p class="dish-desc">Two seared cakes of all jumbo lump crab, barely bound, Creole remoulade.</p>
+      </div>
+      <div class="dish">
+        <div class="dish-line"><span class="dish-name">Seafood Gumbo</span><span class="leader"></span><span class="dish-price">$24</span></div>
+        <p class="dish-desc">Dark roux, crawfish and andouille, okra and rice, a New Orleans bowl.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-head"><h2>Salads</h2></div>
+      <div class="dish">
+        <div class="dish-line"><span class="dish-name">Hal's Wedge</span><span class="leader"></span><span class="dish-price">$15</span></div>
+        <p class="dish-desc">Iceberg wedge, Maytag blue, smoked bacon, vine tomato, blue cheese dressing.</p>
+      </div>
+      <div class="dish">
+        <div class="dish-line"><span class="dish-name">Caesar Salad</span><span class="leader"></span><span class="dish-price">$15</span></div>
+        <p class="dish-desc">Crisp romaine hearts, garlic croutons, anchovy, shaved parmesan.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-head"><h2>Steaks &amp; Chops</h2></div>
+      <div class="dish">
+        <div class="dish-line"><span class="dish-name">Bone-in Prime Ribeye</span><span class="leader"></span><span class="dish-price">$68</span></div>
+        <p class="dish-desc">28 oz USDA Prime bone-in ribeye, hard-seared, finished with herb butter.</p>
+      </div>
+      <div class="dish">
+        <div class="dish-line"><span class="dish-name">New York Strip</span><span class="leader"></span><span class="dish-price">$52</span></div>
+        <p class="dish-desc">14 oz center-cut strip, charred crust, maitre d' butter.</p>
+      </div>
+      <div class="dish">
+        <div class="dish-line"><span class="dish-name">Filet Mignon</span><span class="leader"></span><span class="dish-price">$60</span></div>
+        <p class="dish-desc">9 oz center-cut tenderloin, the house indulgence, butter-basted.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-head"><h2>Seafood</h2></div>
+      <div class="dish">
+        <div class="dish-line"><span class="dish-name">Whole Roasted Branzino</span><span class="leader"></span><span class="dish-price">$46</span></div>
+        <p class="dish-desc">Whole Mediterranean branzino, roasted on the bone, garlic and lemon butter.</p>
+      </div>
+      <div class="dish">
+        <div class="dish-line"><span class="dish-name">Gulf Shrimp Creole</span><span class="leader"></span><span class="dish-price">$33</span></div>
+        <p class="dish-desc">Gulf white shrimp, Creole tomato gravy, over steamed rice.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-head"><h2>Pasta &amp; Entrees</h2></div>
+      <div class="dish">
+        <div class="dish-line"><span class="dish-name">Lobster Mac &amp; Cheese</span><span class="leader"></span><span class="dish-price">$29</span></div>
+        <p class="dish-desc">Cavatappi in a three-cheese cream, folded with butter-poached lobster.</p>
+      </div>
+      <div class="dish">
+        <div class="dish-line"><span class="dish-name">Cacio e Pepe</span><span class="leader"></span><span class="dish-price">$31</span></div>
+        <p class="dish-desc">House spaghetti, pecorino romano, cracked black pepper. Simple, Roman.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-head"><h2>Sides</h2></div>
+      <div class="dish">
+        <div class="dish-line"><span class="dish-name">Creamed Spinach</span><span class="leader"></span><span class="dish-price">$14</span></div>
+        <p class="dish-desc">Baby spinach folded into a rich butter cream.</p>
+      </div>
+      <div class="dish">
+        <div class="dish-line"><span class="dish-name">Truffle Fries</span><span class="leader"></span><span class="dish-price">$15</span></div>
+        <p class="dish-desc">Hand-cut fries, black truffle oil, shaved parmesan.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-head"><h2>Cocktails</h2></div>
+      <div class="dish">
+        <div class="dish-line"><span class="dish-name">Hal's Old Fashioned</span><span class="leader"></span><span class="dish-price">$18</span></div>
+        <p class="dish-desc">Bourbon, demerara, aromatic bitters, orange.</p>
+      </div>
+      <div class="dish">
+        <div class="dish-line"><span class="dish-name">Espresso Martini</span><span class="leader"></span><span class="dish-price">$18</span></div>
+        <p class="dish-desc">Vodka, fresh espresso, coffee liqueur, shaken to a foam.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-head"><h2>Dessert</h2></div>
+      <div class="dish">
+        <div class="dish-line"><span class="dish-name">Bourbon Bread Pudding</span><span class="leader"></span><span class="dish-price">$15</span></div>
+        <p class="dish-desc">Brioche custard, vanilla bean, warm bourbon sauce.</p>
+      </div>
+    </section>
+
+    <footer>
+      <p class="footer-mark">Hal's &middot; Steakhouse &middot; Buckhead</p>
+      <p class="footer-note">menu for demonstration &mdash; prices illustrative</p>
+    </footer>
+  </div>
+</body>
+</html>

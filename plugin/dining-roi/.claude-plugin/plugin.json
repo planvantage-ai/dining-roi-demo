@@ -1,0 +1,8 @@
+{
+  "name": "dining-roi",
+  "version": "1.0.0",
+  "description": "Dining ROI demo — MCP tools + skill to compute true menu markups from raw ingredient costs",
+  "author": {
+    "name": "Jeff Mals"
+  }
+}

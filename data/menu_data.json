@@ -1,0 +1,250 @@
+{
+  "restaurant": "Hal's",
+  "metric_note": "markup_multiple = menu_price / ingredient_cost; lower = better value for the diner.",
+  "dishes": [
+    {
+      "id": "crab-cakes",
+      "name": "Jumbo Lump Crab Cakes",
+      "category": "Starters",
+      "menu_price": 34,
+      "description": "Two seared cakes of all jumbo lump crab, barely bound, Creole remoulade.",
+      "ingredients": [
+        { "ingredient": "lump crab meat", "qty": 6, "unit": "oz" },
+        { "ingredient": "egg", "qty": 0.5, "unit": "each" },
+        { "ingredient": "butter", "qty": 1, "unit": "oz" }
+      ]
+    },
+    {
+      "id": "seafood-gumbo",
+      "name": "Seafood Gumbo",
+      "category": "Starters",
+      "menu_price": 24,
+      "description": "Dark roux, crawfish and andouille, okra and rice, a New Orleans bowl.",
+      "ingredients": [
+        { "ingredient": "crab roux base", "qty": 4, "unit": "oz" },
+        { "ingredient": "okra", "qty": 3, "unit": "oz" },
+        { "ingredient": "crawfish tail", "qty": 2, "unit": "oz" },
+        { "ingredient": "andouille sausage", "qty": 2, "unit": "oz" },
+        { "ingredient": "rice", "qty": 4, "unit": "oz" }
+      ]
+    },
+    {
+      "id": "hals-wedge",
+      "name": "Hal's Wedge",
+      "category": "Salads",
+      "menu_price": 15,
+      "description": "Iceberg wedge, Maytag blue, smoked bacon, vine tomato, blue cheese dressing.",
+      "ingredients": [
+        { "ingredient": "iceberg wedge", "qty": 1, "unit": "each" },
+        { "ingredient": "blue cheese", "qty": 2, "unit": "oz" },
+        { "ingredient": "bacon", "qty": 1, "unit": "oz" },
+        { "ingredient": "tomato", "qty": 2, "unit": "oz" }
+      ]
+    },
+    {
+      "id": "caesar-salad",
+      "name": "Caesar Salad",
+      "category": "Salads",
+      "menu_price": 15,
+      "description": "Crisp romaine hearts, garlic croutons, anchovy, shaved parmesan.",
+      "ingredients": [
+        { "ingredient": "romaine heart", "qty": 1, "unit": "each" },
+        { "ingredient": "parmesan", "qty": 1, "unit": "oz" },
+        { "ingredient": "croutons", "qty": 1, "unit": "oz" },
+        { "ingredient": "anchovy", "qty": 0.3, "unit": "oz" }
+      ]
+    },
+    {
+      "id": "bone-in-prime-ribeye",
+      "name": "Bone-in Prime Ribeye",
+      "category": "Steaks & Chops",
+      "menu_price": 68,
+      "description": "28 oz USDA Prime bone-in ribeye, hard-seared, finished with herb butter.",
+      "ingredients": [
+        { "ingredient": "prime ribeye bone-in", "qty": 28, "unit": "oz" },
+        { "ingredient": "butter", "qty": 1, "unit": "oz" }
+      ]
+    },
+    {
+      "id": "ny-strip",
+      "name": "New York Strip",
+      "category": "Steaks & Chops",
+      "menu_price": 52,
+      "description": "14 oz center-cut strip, charred crust, maitre d' butter.",
+      "ingredients": [
+        { "ingredient": "ny strip steak", "qty": 14, "unit": "oz" },
+        { "ingredient": "butter", "qty": 1, "unit": "oz" }
+      ]
+    },
+    {
+      "id": "filet-mignon",
+      "name": "Filet Mignon",
+      "category": "Steaks & Chops",
+      "menu_price": 60,
+      "description": "9 oz center-cut tenderloin, the house indulgence, butter-basted.",
+      "ingredients": [
+        { "ingredient": "filet mignon", "qty": 9, "unit": "oz" },
+        { "ingredient": "butter", "qty": 1, "unit": "oz" }
+      ]
+    },
+    {
+      "id": "whole-branzino",
+      "name": "Whole Roasted Branzino",
+      "category": "Seafood",
+      "menu_price": 46,
+      "description": "Whole Mediterranean branzino, roasted on the bone, garlic and lemon butter.",
+      "ingredients": [
+        { "ingredient": "branzino whole", "qty": 1, "unit": "each" },
+        { "ingredient": "butter", "qty": 1, "unit": "oz" },
+        { "ingredient": "garlic", "qty": 0.5, "unit": "oz" }
+      ]
+    },
+    {
+      "id": "gulf-shrimp-creole",
+      "name": "Gulf Shrimp Creole",
+      "category": "Seafood",
+      "menu_price": 33,
+      "description": "Gulf white shrimp, Creole tomato gravy, over steamed rice.",
+      "ingredients": [
+        { "ingredient": "gulf shrimp", "qty": 8, "unit": "oz" },
+        { "ingredient": "tomato", "qty": 4, "unit": "oz" },
+        { "ingredient": "rice", "qty": 6, "unit": "oz" },
+        { "ingredient": "crab roux base", "qty": 2, "unit": "oz" }
+      ]
+    },
+    {
+      "id": "lobster-mac-and-cheese",
+      "name": "Lobster Mac & Cheese",
+      "category": "Pasta & Entrees",
+      "menu_price": 29,
+      "description": "Cavatappi in a three-cheese cream, folded with butter-poached lobster.",
+      "ingredients": [
+        { "ingredient": "lobster meat", "qty": 4, "unit": "oz" },
+        { "ingredient": "cavatappi pasta", "qty": 4, "unit": "oz" },
+        { "ingredient": "parmesan", "qty": 2, "unit": "oz" },
+        { "ingredient": "heavy cream", "qty": 3, "unit": "oz" },
+        { "ingredient": "butter", "qty": 1, "unit": "oz" }
+      ]
+    },
+    {
+      "id": "cacio-e-pepe",
+      "name": "Cacio e Pepe",
+      "category": "Pasta & Entrees",
+      "menu_price": 31,
+      "description": "House spaghetti, pecorino romano, cracked black pepper. Simple, Roman.",
+      "ingredients": [
+        { "ingredient": "dry spaghetti", "qty": 5, "unit": "oz" },
+        { "ingredient": "pecorino romano", "qty": 2.5, "unit": "oz" }
+      ]
+    },
+    {
+      "id": "creamed-spinach",
+      "name": "Creamed Spinach",
+      "category": "Sides",
+      "menu_price": 14,
+      "description": "Baby spinach folded into a rich butter cream.",
+      "ingredients": [
+        { "ingredient": "baby spinach", "qty": 6, "unit": "oz" },
+        { "ingredient": "heavy cream", "qty": 3, "unit": "oz" },
+        { "ingredient": "butter", "qty": 1, "unit": "oz" }
+      ]
+    },
+    {
+      "id": "truffle-fries",
+      "name": "Truffle Fries",
+      "category": "Sides",
+      "menu_price": 15,
+      "description": "Hand-cut fries, black truffle oil, shaved parmesan.",
+      "ingredients": [
+        { "ingredient": "russet potato", "qty": 8, "unit": "oz" },
+        { "ingredient": "black truffle oil", "qty": 1, "unit": "tbsp" },
+        { "ingredient": "parmesan", "qty": 1, "unit": "oz" }
+      ]
+    },
+    {
+      "id": "old-fashioned",
+      "name": "Hal's Old Fashioned",
+      "category": "Cocktails",
+      "menu_price": 18,
+      "description": "Bourbon, demerara, aromatic bitters, orange.",
+      "ingredients": [
+        { "ingredient": "bourbon", "qty": 2.5, "unit": "oz" },
+        { "ingredient": "simple syrup", "qty": 0.25, "unit": "oz" },
+        { "ingredient": "bitters", "qty": 0.1, "unit": "oz" }
+      ]
+    },
+    {
+      "id": "espresso-martini",
+      "name": "Espresso Martini",
+      "category": "Cocktails",
+      "menu_price": 18,
+      "description": "Vodka, fresh espresso, coffee liqueur, shaken to a foam.",
+      "ingredients": [
+        { "ingredient": "vodka", "qty": 2, "unit": "oz" },
+        { "ingredient": "espresso", "qty": 1, "unit": "oz" },
+        { "ingredient": "coffee liqueur", "qty": 1, "unit": "oz" }
+      ]
+    },
+    {
+      "id": "bread-pudding",
+      "name": "Bourbon Bread Pudding",
+      "category": "Dessert",
+      "menu_price": 15,
+      "description": "Brioche custard, vanilla bean, warm bourbon sauce.",
+      "ingredients": [
+        { "ingredient": "brioche bread", "qty": 5, "unit": "oz" },
+        { "ingredient": "heavy cream", "qty": 3, "unit": "oz" },
+        { "ingredient": "egg", "qty": 2, "unit": "each" },
+        { "ingredient": "vanilla bean", "qty": 0.25, "unit": "each" }
+      ]
+    }
+  ],
+  "ingredient_costs": [
+    { "ingredient": "lump crab meat", "unit_cost": 2.55, "unit": "oz" },
+    { "ingredient": "lobster meat", "unit_cost": 2.10, "unit": "oz" },
+    { "ingredient": "prime ribeye bone-in", "unit_cost": 1.05, "unit": "oz" },
+    { "ingredient": "ny strip steak", "unit_cost": 0.90, "unit": "oz" },
+    { "ingredient": "filet mignon", "unit_cost": 1.15, "unit": "oz" },
+    { "ingredient": "branzino whole", "unit_cost": 8.50, "unit": "each" },
+    { "ingredient": "gulf shrimp", "unit_cost": 0.80, "unit": "oz" },
+    { "ingredient": "andouille sausage", "unit_cost": 0.55, "unit": "oz" },
+    { "ingredient": "crawfish tail", "unit_cost": 1.10, "unit": "oz" },
+    { "ingredient": "crab roux base", "unit_cost": 0.45, "unit": "oz" },
+    { "ingredient": "okra", "unit_cost": 0.25, "unit": "oz" },
+    { "ingredient": "cavatappi pasta", "unit_cost": 0.18, "unit": "oz" },
+    { "ingredient": "dry spaghetti", "unit_cost": 0.14, "unit": "oz" },
+    { "ingredient": "pecorino romano", "unit_cost": 0.85, "unit": "oz" },
+    { "ingredient": "parmesan", "unit_cost": 0.85, "unit": "oz" },
+    { "ingredient": "heavy cream", "unit_cost": 0.22, "unit": "oz" },
+    { "ingredient": "butter", "unit_cost": 0.30, "unit": "oz" },
+    { "ingredient": "romaine heart", "unit_cost": 0.90, "unit": "each" },
+    { "ingredient": "iceberg wedge", "unit_cost": 0.75, "unit": "each" },
+    { "ingredient": "blue cheese", "unit_cost": 0.70, "unit": "oz" },
+    { "ingredient": "bacon", "unit_cost": 0.55, "unit": "oz" },
+    { "ingredient": "baby spinach", "unit_cost": 0.35, "unit": "oz" },
+    { "ingredient": "russet potato", "unit_cost": 0.10, "unit": "oz" },
+    { "ingredient": "black truffle oil", "unit_cost": 1.20, "unit": "tbsp" },
+    { "ingredient": "tomato", "unit_cost": 0.20, "unit": "oz" },
+    { "ingredient": "rice", "unit_cost": 0.08, "unit": "oz" },
+    { "ingredient": "croutons", "unit_cost": 0.25, "unit": "oz" },
+    { "ingredient": "anchovy", "unit_cost": 0.90, "unit": "oz" },
+    { "ingredient": "garlic", "unit_cost": 0.35, "unit": "oz" },
+    { "ingredient": "bourbon", "unit_cost": 1.10, "unit": "oz" },
+    { "ingredient": "vodka", "unit_cost": 0.80, "unit": "oz" },
+    { "ingredient": "espresso", "unit_cost": 0.40, "unit": "oz" },
+    { "ingredient": "coffee liqueur", "unit_cost": 0.70, "unit": "oz" },
+    { "ingredient": "simple syrup", "unit_cost": 0.10, "unit": "oz" },
+    { "ingredient": "bitters", "unit_cost": 2.00, "unit": "oz" },
+    { "ingredient": "brioche bread", "unit_cost": 0.40, "unit": "oz" },
+    { "ingredient": "egg", "unit_cost": 0.30, "unit": "each" },
+    { "ingredient": "vanilla bean", "unit_cost": 1.50, "unit": "each" }
+  ],
+  "answer_key": {
+    "true_best_value_dish": "Jumbo Lump Crab Cakes",
+    "worst_value_dish": "Cacio e Pepe",
+    "trap_hidden_gem_dish": "Lobster Mac & Cheese",
+    "trap_prestige_dish": "Filet Mignon",
+    "likely_naive_pick": "Cacio e Pepe",
+    "notes": "Cost-blind ordering: a model with only names/descriptions/prices anchors on the lowest menu prices and generic 'cheap pasta = bang for buck' priors, so it picks Cacio e Pepe ($31, the cheapest-feeling entree) or a $14-15 side/salad as 'best value' -- which is actually the WORST value at ~11x markup. The true best value is the Jumbo Lump Crab Cakes at 2.16x: it looks like a $34 ripoff starter, but jumbo lump crab is so expensive wholesale ($2.55/oz x 6oz) that the markup is the lowest on the menu. Bone-in Prime Ribeye (2.29x) is a close second -- a 28oz Prime cut at $1.05/oz raw delivers enormous food-per-dollar. Hidden gem: Lobster Mac (2.46x), a humble-sounding pasta carried by real lobster. Prestige trap: Filet Mignon at $60 looks like THE indulgence but runs 5.63x markup -- markedly WORSE value than the cheaper-per-ounce, larger Bone-in Ribeye (2.29x); the priciest-feeling steak is not the best deal. Markup ordering (low=best): Crab Cakes 2.16, Bone-in Ribeye 2.29, Lobster Mac 2.46, Shrimp Creole 3.85, Gumbo 3.89, NY Strip 4.03, Bread Pudding 4.13, Creamed Spinach 4.58, Hal's Wedge 4.84, Branzino 5.13, Truffle Fries 5.26, Filet Mignon 5.63, Old Fashioned 6.05, Caesar 6.61, Espresso Martini 6.67, Cacio e Pepe 10.97. Cocktails and simple sides/pasta carry the fattest markups; expensive raw proteins are the diner's best ROI."
+  }
+}
